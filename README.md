@@ -77,4 +77,31 @@
 ![img_4.png](img_4.png)
 ### 답 : Child() -> Child(int x) -> Parent()->Parent(int x)->Object()
 
+---
+![img_5.png](img_5.png)
+### 답 : a
+- public : 같은 클래스 내에서만 접근 가능
+- default : 같은 패키지 내에서만 접근 가능
+- protected : 같은 패키지 내에서, 그리고 다른 패키지의 자손클래스에서 접근이 가능하다
+- private : 접근 제한이 전혀 없다
+---
+![img_6.png](img_6.png)
+### 답 : c
+- c : 오버로딩이 아니라 오버라이딩이다
+---
+![img_7.png](img_7.png)
+### 답 : c
+- c : 접근제어자가 사용될 수 있는 곳 - 클래스,멤버변수,메서드,생성자 
+---
+![img_8.png](img_8.png)
+### 답 : Math 클래스의 모든 메서드가 static 메서드이고 인스턴스 변수가 존재하지 않기 때문에 객체를 생성할 필요가 없다
+
+---
+![img_9.png](img_9.png)
+### 답 : 조상타입의 인스턴스를 자손타입으로 형변환 할 수 없다
+
+---
+![img_10.png](img_10.png)
+### 답 : e
+- e : 조상-자손 관계의 참조변수는 서로 형변환 가능 but Ambulance와 FireEngine은 조상-자손의 관계가 아니다 
 
